@@ -5,8 +5,8 @@ Helmfile with gcloud authenticator
 Building new image:
 
 ```bash
-docker build -t europe-docker.pkg.dev/<project name>/docker-images/helmfile-gcloud-docker:1.0.0 .
-docker push europe-docker.pkg.dev/<project name>/docker-images/helmfile-gcloud-docker:1.0.0
+docker build -t europe-docker.pkg.dev/anakatech/docker-images/helmfile-gcloud-docker:2.0.0 .
+docker push europe-docker.pkg.dev/anakatech/docker-images/helmfile-gcloud-docker:2.0.0
 ```
 
 DO NOT FORGET TO INCREASE IMAGE TAG!!!
